@@ -1,0 +1,6 @@
+# determine amount of unique identifiers
+awk '{print $4}' inter.txt | sort | uniq -c | wc -l
+
+# unique identifiers: 11265 
+# total:187856
+
